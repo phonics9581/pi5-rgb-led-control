@@ -1,0 +1,29 @@
+{
+  "name": "pi5-rgb-led-control",
+  "version": "2.0.0",
+  "description": "RGB LED status and playback monitor for Raspberry Pi 5",
+  "main": "index.js",
+  "author": "You",
+  "license": "ISC",
+  "volumio_info": {
+    "prettyName": "Pi5 RGB Status Link",
+    "icon": "fa-lightbulb-o",
+    "plugin_type": "system_controller",
+    "architectures": [
+      "armhf"
+    ],
+    "os": [
+      "bookworm"
+    ],
+    "details": "Monitors system status and audio bitrates using RGB LEDs on Pi 5 GPIO.",
+    "manually_installed": true
+  },
+  "engines": {
+    "node": ">=14.15.4",
+    "volumio": ">=3.0.0"
+  },
+  "dependencies": {
+    "kew": "^0.7.0",
+    "v-conf": "^1.4.0"
+  }
+}
