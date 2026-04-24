@@ -1,4 +1,4 @@
-# Pi5 RGB Status Link
+# Pi5 RGB Status Link.
 
 A Raspberry Pi 5 LED controller for Volumio that matches colour to audio resolution. 
 
